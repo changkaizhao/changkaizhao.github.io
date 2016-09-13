@@ -3,17 +3,16 @@ layout: post
 title: Synaptic Connectivity Motifs Contribute to Efficient Memory Retrieval in Hippocampus(*突触连接样式有助于在海马体内记忆的有效检索*)
 ---
 >原文：[地址](http://neurosciencenews.com/hippocampus-synaptic-connection-memory-5027/)
-
 >翻译：Roby
->
 >来源：IST Austria（奥地利科技学院）
-
-
 >摘要：研究人员结合功能连接分析(*functional connectivity analyis*)和网络建模(*network modeling*)方法来研究**海马体**内**CA3网络**模式生成的突触连接机制。
 
-**海马体**`CA3`区在学习和记忆过程中起着关键作用。`CA3`区的神经网络的一个最重要的功能是它可以检索之前存储在记忆中的不完整或降级版本，也就是被人熟知的**模式生成**(*pattern completion*)。人们普遍认为`CA3`区金字塔结构的神经网络内的神经元细胞之间的突触(重复的CA3-CA3突触)，在模式生成过程中起到了关键作用，但其内部运作机理目前仍然不清晰。最近的一篇研究文章题为“**Synaptic Connectivity Motifs Contribute to Efficient Memory Retrieval in Hippocampus**”于2016年9月9日发表在**Science**，作者*Jose Guzman, Alois Schlögl, Michael Frotscher*  和 *Peter Jonas*通过结合功能连接分析和网络建模来研究上述运作机理。他们的研究结果表明，`CA3`区金字塔结构的神经网络细胞之间的突触连接的方式对**模式生成**效率的影响极其显著。
+**海马体**`CA3`区在学习和记忆过程中起着关键作用。`CA3`区的神经网络的一个最重要的功能是它可以检索之前存储在记忆中的不完整或降级版本，也就是被人熟知的**模式生成**(*pattern completion*)。人们普遍认为`CA3`区神经网络内的锥形神经元细胞之间的突触(重复的CA3-CA3突触)，在模式生成过程中起到了关键作用，但其内部运作机理目前仍然不清晰。最近的一篇研究文章题为“**Synaptic Connectivity Motifs Contribute to Efficient Memory Retrieval in Hippocampus**”于2016年9月9日发表在**Science**，作者*Jose Guzman, Alois Schlögl, Michael Frotscher*  和 *Peter Jonas*通过结合**功能连接分析**和**网络建模**来研究上述运作机理。他们的研究结果表明，`CA3`区神经网络锥形神经元之间的突触连接的方式对**模式生成**效率的影响极其显著。
 
 ![突触连接](https://raw.githubusercontent.com/changkaizhao/changkaizhao.github.io/master/images/2016-9-13/1.jpg)
+`CA3`区锥形**神经元对**突触连接重建图。图中为由单个突触连接的**神经元对**的显微图像。
+
+
 
 早前对于**海马体**构成的理论认为`CA3`区的神经网络内部的神经元也是高度相互连接的。奥地利科技学院的神经科学家通过同时监控8个相互连接的神经元之间的电信号传导的方法来检验早前的假设。经过实验后，结果让人很震惊,首先他们发现此区域中的神经元连接是稀疏的，平均连接概率约为`1%`。这对于之前死板地认为神经网络的神经元是高度连接的结论提出了极大的挑战。令人更加惊讶的是，网络内部神经元的连接也不是随机的，相对于随机神经网络其内部神经元连接更多地呈现某种**样式**(*motifs*)。因此，**海马体**`CA3`区的神经元连接结构某种程度上让人联想到社交网络中的*"小世界"*(small world)结构。最后，作者发现这个区域中的两个神经元间的突触连接仅有`1`到`2`个。要知道在**新大脑皮层**(*neocortex*)中的神经元之间刺激性突触连接个数远大于`2`个。
 
