@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Synaptic Connectivity Motifs Contribute to Efficient Memory Retrieval in Hippocampus(*突触连接样式有助于在海马体内记忆的有效检索*)
+title: Synaptic Connectivity Motifs Contribute to Efficient Memory Retrieval in Hippocampus ( *突触连接样式有助于在海马体内记忆的有效检索* )
 ---
 > 原文：[地址](http://neurosciencenews.com/hippocampus-synaptic-connection-memory-5027/)
 > 
