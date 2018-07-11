@@ -3,10 +3,10 @@
   <channel>
     <title>Robys AI Lab</title>
     <description>Create a mind never fade.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 11 Jul 2018 20:38:06 +0800</pubDate>
-    <lastBuildDate>Wed, 11 Jul 2018 20:38:06 +0800</lastBuildDate>
+    <link>http://www.digitbrain.science//</link>
+    <atom:link href="http://www.digitbrain.science//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 11 Jul 2018 20:44:08 +0800</pubDate>
+    <lastBuildDate>Wed, 11 Jul 2018 20:44:08 +0800</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
@@ -148,8 +148,8 @@ print(fa[0])
 &lt;p&gt;we can see the results are all expected!&lt;/p&gt;
 </description>
         <pubDate>Wed, 11 Jul 2018 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2018/07/11/How-to-save-numpy-array-to-tfrecord-and-load-by-TFSlim-dataset-pipeline.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/07/11/How-to-save-numpy-array-to-tfrecord-and-load-by-TFSlim-dataset-pipeline.html</guid>
+        <link>http://www.digitbrain.science//2018/07/11/How-to-save-numpy-array-to-tfrecord-and-load-by-TFSlim-dataset-pipeline.html</link>
+        <guid isPermaLink="true">http://www.digitbrain.science//2018/07/11/How-to-save-numpy-array-to-tfrecord-and-load-by-TFSlim-dataset-pipeline.html</guid>
         
         <category>tensorflow</category>
         
@@ -184,8 +184,8 @@ k &amp;= m\oplus c
 &lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt;公式块要想有较好的显示效果，必须在公式块标记符&lt;code class=&quot;highlighter-rouge&quot;&gt;$$&lt;/code&gt;&lt;strong&gt;前后&lt;/strong&gt;留有空行，否则公式将不能正常居中。行内公式无此问题。&lt;/p&gt;
 </description>
         <pubDate>Sun, 30 Jul 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/07/30/mathjax-test.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/07/30/mathjax-test.html</guid>
+        <link>http://www.digitbrain.science//2017/07/30/mathjax-test.html</link>
+        <guid isPermaLink="true">http://www.digitbrain.science//2017/07/30/mathjax-test.html</guid>
         
         <category>mathjax</category>
         
@@ -216,8 +216,8 @@ k &amp;= m\oplus c
 &lt;p&gt;&lt;strong&gt;这些极特殊的突触连接方式具有什么功能，尤其对模式生成有什么关系？&lt;/strong&gt;为了回答这个问题，&lt;em&gt;Peter Jonas&lt;/em&gt;和他的团队根据他们的实验发现搭建了一个&lt;code class=&quot;highlighter-rouge&quot;&gt;CA3&lt;/code&gt;神经网络模型。跟之前的研究不同，这次构建的神经网络是全尺寸的，因此老鼠&lt;strong&gt;海马体&lt;/strong&gt;内&lt;code class=&quot;highlighter-rouge&quot;&gt;330，000&lt;/code&gt;个&lt;code class=&quot;highlighter-rouge&quot;&gt;CA3&lt;/code&gt;区的神经元全部被模拟出来。这个建模方式占用了大量奥地利科技学院计算机集群的计算能力，同时也获得了学院科学技术服务部门&lt;em&gt;“科学计算”&lt;/em&gt;的大力支持。作者发现跟真实大脑一样连接率&lt;code class=&quot;highlighter-rouge&quot;&gt;1%&lt;/code&gt;全尺寸的神经网络模型确实能够进行&lt;strong&gt;模式生成&lt;/strong&gt;的网络计算。此外，在特定条件下，出现的连接动机增加了神经网络的性能。最后，基于1到2个神经突触连接方式设计的模型看起来对于&lt;strong&gt;模式生成&lt;/strong&gt;也是很有帮助，显然因为信息在神经网络中传递的冗余被减小。这样宏观连接(例如&lt;strong&gt;样式&lt;/strong&gt; &lt;em&gt;motifs&lt;/em&gt;)和微观连接(例如&lt;strong&gt;连接属性&lt;/strong&gt; &lt;em&gt;properties of connection&lt;/em&gt;)对于&lt;code class=&quot;highlighter-rouge&quot;&gt;CA3&lt;/code&gt;区神经网络的&lt;strong&gt;模式生成&lt;/strong&gt;都起到了作用。&lt;strong&gt;“实验结果证明了&lt;em&gt;Hopfield&lt;/em&gt;的名言“&lt;em&gt;只有亲手建造过，才会理解其原理&lt;/em&gt;” 在神经网络关键问题的研究中是一个成功的方法论” &lt;em&gt;Peter Jonas&lt;/em&gt;_&lt;/strong&gt; 说，其领导整个细胞神经科学小组。&lt;/p&gt;
 </description>
         <pubDate>Tue, 13 Sep 2016 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2016/09/13/Synaptic-Connectivity-Motifs-Contribute-to-Efficient-Memory-Retrieval-in-Hippocampus.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/09/13/Synaptic-Connectivity-Motifs-Contribute-to-Efficient-Memory-Retrieval-in-Hippocampus.html</guid>
+        <link>http://www.digitbrain.science//2016/09/13/Synaptic-Connectivity-Motifs-Contribute-to-Efficient-Memory-Retrieval-in-Hippocampus.html</link>
+        <guid isPermaLink="true">http://www.digitbrain.science//2016/09/13/Synaptic-Connectivity-Motifs-Contribute-to-Efficient-Memory-Retrieval-in-Hippocampus.html</guid>
         
         
       </item>
