@@ -1,5 +1,11 @@
 ---
 layout: post
+title: 'How to save numpy array to tfrecord and load via TFSlim dataset pipeline'
+subtitle: 'Slim available tensorflow r1.8'
+date: 2018-07-11
+categories: 技术
+cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg'
+tags: tensorflow slim tfrecord
 ---
 
 This tutorial shows how to save numpy array to `tfrecord` file a tensorflow dataset format, and load numpy array from tfrecord with `TFSlim` dataset pipeline.
@@ -11,6 +17,7 @@ This tutorial shows how to save numpy array to `tfrecord` file a tensorflow data
 **saveDataToTFRecord.py**
 
 ```
+<pre><code class="language-python">
 #Save numpy data to tfrecord
 
 import numpy as np
@@ -58,6 +65,7 @@ feature_dict = {
 example = tf.train.Example(features=tf.train.Features(feature=feature_dict))
 
 writer.write(example.SerializeToString())
+</code></pre>
 ```
 
 ## Load data from tfrecord via TFSlim data pipeline
@@ -66,6 +74,7 @@ writer.write(example.SerializeToString())
 
 
 ```
+<pre><code class="language-python">
 #Load data from TFRecord via TFSlim data pipeline
 
 import tensorflow as tf
@@ -119,11 +128,13 @@ ia, fa = sess.run([iarray, farray])
 
 print(ia[0])
 print(fa[0])
+</code></pre>
 ```
 
  will print results as below:
  
  ```
+ <pre><code class="language-python">
  [[[10 11]
   [12 13]]
 
@@ -135,6 +146,7 @@ print(fa[0])
 
   [[5. 6.]
    [7. 8.]]]
+   </code></pre>
  ```
  
  we can see the results are all expected!
