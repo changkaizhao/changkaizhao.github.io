@@ -5,8 +5,8 @@
     <description>Create a mind never fade.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 11 Jul 2018 20:24:12 +0800</pubDate>
-    <lastBuildDate>Wed, 11 Jul 2018 20:24:12 +0800</lastBuildDate>
+    <pubDate>Wed, 11 Jul 2018 20:38:06 +0800</pubDate>
+    <lastBuildDate>Wed, 11 Jul 2018 20:38:06 +0800</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
@@ -19,10 +19,7 @@
 
 &lt;p&gt;&lt;strong&gt;saveDataToTFRecord.py&lt;/strong&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;pre&amp;gt;&amp;lt;code class=&quot;language-css&quot;&amp;gt;p { color: red }&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;pre&amp;gt;&amp;lt;code class=&quot;language-python&quot;&amp;gt;
+&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;
 #Save numpy data to tfrecord
 
 import numpy as np
@@ -70,14 +67,13 @@ feature_dict = {
 example = tf.train.Example(features=tf.train.Features(feature=feature_dict))
 
 writer.write(example.SerializeToString())
-&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id=&quot;load-data-from-tfrecord-via-tfslim-data-pipeline&quot;&gt;Load data from tfrecord via TFSlim data pipeline&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;loaddatafromtfrecord.py&lt;/strong&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;pre&amp;gt;&amp;lt;code class=&quot;language-python&quot;&amp;gt;
+&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;
 #Load data from TFRecord via TFSlim data pipeline
 
 import tensorflow as tf
@@ -131,12 +127,11 @@ ia, fa = sess.run([iarray, farray])
 
 print(ia[0])
 print(fa[0])
-&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;will print results as below:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &amp;lt;pre&amp;gt;&amp;lt;code class=&quot;language-python&quot;&amp;gt;
+&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;
  [[[10 11]
   [12 13]]
 
@@ -148,8 +143,7 @@ print(fa[0])
 
   [[5. 6.]
    [7. 8.]]]
-   &amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+   &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;we can see the results are all expected!&lt;/p&gt;
 </description>
