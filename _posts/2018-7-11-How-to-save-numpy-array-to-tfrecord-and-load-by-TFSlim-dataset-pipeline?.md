@@ -16,7 +16,7 @@ This tutorial shows how to save numpy array to `tfrecord` file a tensorflow data
 
 **saveDataToTFRecord.py**
 
-```
+
 <pre><code class="language-python">
 #Save numpy data to tfrecord
 
@@ -66,14 +66,13 @@ example = tf.train.Example(features=tf.train.Features(feature=feature_dict))
 
 writer.write(example.SerializeToString())
 </code></pre>
-```
+
 
 ## Load data from tfrecord via TFSlim data pipeline
 
 **loaddatafromtfrecord.py**
 
 
-```
 <pre><code class="language-python">
 #Load data from TFRecord via TFSlim data pipeline
 
@@ -129,11 +128,10 @@ ia, fa = sess.run([iarray, farray])
 print(ia[0])
 print(fa[0])
 </code></pre>
-```
 
  will print results as below:
  
- ```
+
  <pre><code class="language-python">
  [[[10 11]
   [12 13]]
@@ -147,6 +145,6 @@ print(fa[0])
   [[5. 6.]
    [7. 8.]]]
    </code></pre>
- ```
+
  
  we can see the results are all expected!

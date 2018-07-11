@@ -147,7 +147,11 @@ Author: Ray-Eldath
 
 <p><strong>saveDataToTFRecord.py</strong></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#Save numpy data to tfrecord
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;pre&gt;&lt;code class="language-css"&gt;p { color: red }&lt;/code&gt;&lt;/pre&gt;
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;pre&gt;&lt;code class="language-python"&gt;
+#Save numpy data to tfrecord
 
 import numpy as np
 import tensorflow as tf
@@ -194,13 +198,15 @@ feature_dict = {
 example = tf.train.Example(features=tf.train.Features(feature=feature_dict))
 
 writer.write(example.SerializeToString())
+&lt;/code&gt;&lt;/pre&gt;
 </code></pre></div></div>
 
 <h2 id="load-data-from-tfrecord-via-tfslim-data-pipeline">Load data from tfrecord via TFSlim data pipeline</h2>
 
 <p><strong>loaddatafromtfrecord.py</strong></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#Load data from TFRecord via TFSlim data pipeline
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;pre&gt;&lt;code class="language-python"&gt;
+#Load data from TFRecord via TFSlim data pipeline
 
 import tensorflow as tf
 from tensorflow.contrib import slim
@@ -253,11 +259,13 @@ ia, fa = sess.run([iarray, farray])
 
 print(ia[0])
 print(fa[0])
+&lt;/code&gt;&lt;/pre&gt;
 </code></pre></div></div>
 
 <p>will print results as below:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> [[[10 11]
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> &lt;pre&gt;&lt;code class="language-python"&gt;
+ [[[10 11]
   [12 13]]
 
   [[14 15]
@@ -268,6 +276,7 @@ print(fa[0])
 
   [[5. 6.]
    [7. 8.]]]
+   &lt;/code&gt;&lt;/pre&gt;
 </code></pre></div></div>
 
 <p>we can see the results are all expected!</p>
