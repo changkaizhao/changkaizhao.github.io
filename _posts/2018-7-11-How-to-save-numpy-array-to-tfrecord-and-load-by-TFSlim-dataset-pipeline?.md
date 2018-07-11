@@ -59,9 +59,11 @@ example = tf.train.Example(features=tf.train.Features(feature=feature_dict))
 
 writer.write(example.SerializeToString())
 ```
+
 ## Load data from tfrecord via TFSlim data pipeline
 
 **loaddatafromtfrecord.py**
+
 
 ```
 #Load data from TFRecord via TFSlim data pipeline
@@ -133,5 +135,6 @@ print(fa[0])
 
   [[5. 6.]
    [7. 8.]]]
-   
-```
+ ```
+ 
+ we can see the results are all expected!
