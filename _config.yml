@@ -2,7 +2,7 @@
 title: 'Robys AI Lab'
 description: 'Create a mind never fade.'
 keyword: 'AI, Brain, Neural Science'
-url: 'http://digitbrain.science' # your host
+url: 'https://digitbrain.science' # your host
 
 # if you don't need baseurl, you should leave this value blank.
 baseurl: ''
@@ -14,7 +14,7 @@ nav:
 
 # Footer
 footer:
-  since: 2017
+  since: 2018
 
 # Author 配置博主信息
 author: 'Roby'
