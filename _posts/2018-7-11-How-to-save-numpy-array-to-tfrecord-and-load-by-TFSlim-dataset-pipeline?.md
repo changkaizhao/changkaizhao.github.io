@@ -2,7 +2,7 @@
 layout: post
 ---
 
-This tutorial shows how to save numpy array to `tfrecord` file (a tensorflow dataset format), and load numpy array from tfrecord with `TFSlim` dataset pipeline.
+This tutorial shows how to save numpy array to `tfrecord` file a tensorflow dataset format, and load numpy array from tfrecord with `TFSlim` dataset pipeline.
 
 ***!!! `TFSLIM` is deprecated from tensorflow r1.9***
 
