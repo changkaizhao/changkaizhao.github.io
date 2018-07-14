@@ -31,7 +31,7 @@ nightMode: false
 # Comments 评论功能
 comments:
   disqus: true
-  disqus_url: 'https://roby.disqus.com/embed.js'
+  disqus_url: 'https://www-digitbrain-science.disqus.com/embed.js'
 
 # MathJax 公式支持 by Ray-Eldath
 mathjax: true
