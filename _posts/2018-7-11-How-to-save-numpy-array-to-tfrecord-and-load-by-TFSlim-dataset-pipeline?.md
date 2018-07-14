@@ -4,7 +4,7 @@ title: 'How to save numpy array to tfrecord and load via TFSlim dataset pipeline
 subtitle: 'Slim available tensorflow r1.8'
 date: 2018-07-11
 categories: 技术
-cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg'
+cover: 'http://www.digitbrain.science/images/cover.png'
 tags: tensorflow slim tfrecord
 ---
 
