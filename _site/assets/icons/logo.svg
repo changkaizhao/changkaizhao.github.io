@@ -1,20 +1,514 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="98px" height="68px" viewBox="0 0 98 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
-    <title>Combined Shape</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <path d="M2,4.03781878 L9.91939502,4.03781878 L9.91939502,20.0140983 L20.1454021,20.0140983 L20.1454021,27.7135101 L9.91939502,27.7135101 L9.91939502,43.6897897 L2,43.6897897 L2,4.03781878 Z M39.008444,35.0446021 L39.008444,4.09281458 L31.089049,4.09281458 L31.089049,43.6897897 L39.008444,43.6897897 L39.008444,43.2307869 C39.4950865,41.5576679 40.4965236,40.7211202 42.0127806,40.7211202 C42.8247489,40.7211202 43.4983033,40.9794698 44.0334642,41.4961769 C44.5686251,42.012884 44.8362015,42.6956652 44.8362015,43.5445411 C44.8362015,44.6517705 44.4209967,45.7405298 43.5905747,46.8108516 C42.7601526,47.8811734 41.2285082,49.3020965 38.9955955,51.0736636 C36.7626828,52.8452306 34.9173281,54.8566673 33.4594761,57.1080338 C32.001624,59.3594003 31.2727089,61.7030007 31.2727089,64.1389055 L52.9742971,64.1389055 L52.9742971,58.1045353 L41.0162791,58.1045353 C41.4591709,57.292567 42.7324656,56.0561794 44.8362015,54.3953352 C47.7888133,52.0701534 49.7817964,50.1786649 50.8152105,48.7208128 C51.8486247,47.2629607 52.365324,45.5744612 52.365324,43.6552635 C52.365324,40.9610052 51.470327,38.7927134 49.6803061,37.1503231 C47.8902851,35.5079328 45.4820973,34.68675 42.4556702,34.68675 C41.2026438,34.68675 40.0535688,34.8060338 39.008444,35.0446021 Z M72.575456,1 L72.892381,1 C79.9070214,1 85.8968429,3.87342407 90.8620252,9.62035842 C94.0735473,13.9305592 95.6792843,18.6210014 95.6792843,23.6918258 L95.6792843,24.0087508 C95.6792843,31.0233912 92.7424759,36.9815206 86.8687709,41.8833175 C82.600827,45.0525828 77.9209488,46.6371916 72.828996,46.6371916 L72.512071,46.6371916 C65.5396874,46.6371916 59.5709941,43.7848957 54.6058118,38.0802182 C52.8732801,35.6504482 51.6584133,33.4214317 50.961175,31.3931019 C50.137166,28.8576897 49.7251677,26.3751358 49.7251677,23.9453658 L49.7251677,23.6284408 C49.7251677,16.740571 52.5668996,10.845826 58.2504486,5.94402909 C62.0958238,3.19733253 65.6030915,1.6549799 68.7723567,1.31692494 C69.7442647,1.10564059 71.0119518,1 72.575456,1 Z M58.852606,23.7552108 C58.852606,27.7273566 60.4055227,31.2134961 63.5114027,34.2137339 C66.2792277,36.5801186 69.1843439,37.7632933 72.2268386,37.7632933 L73.1142284,37.7632933 C75.5651269,37.7632933 78.0582448,36.9287326 80.593657,35.2595862 C83.213583,33.3368986 84.9883449,30.8860369 85.9179961,27.9069276 C86.2137942,27.1251755 86.4250753,25.78354 86.551846,23.8819808 C86.551846,19.9943487 85.0411855,16.5610295 82.0198193,13.5819202 C79.188609,11.0676364 76.0827756,9.81051338 72.702226,9.81051338 C68.7512086,9.81051338 65.243941,11.4585066 62.1803179,14.7545425 C60.8914834,16.4448173 60.0780508,17.8815293 59.7399959,19.0647217 C59.1483997,20.7127396 58.852606,22.2762204 58.852606,23.7552108 Z" id="path-1"></path>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
-            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.236384737 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
-    </defs>
-    <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Combined-Shape">
-            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="98px" height="68px" viewBox="0 0 98 68" enable-background="new 0 0 98 68" xml:space="preserve">
+<title>Combined Shape</title>
+<desc>Created with Sketch.</desc>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="69" height="71" xlink:href="51A2538034F616C8.png"  transform="matrix(1 0 0 1 12.5 -0.5)">
+	</image>
+	<g>
+		<path fill="#FFFFFF" d="M77.782,30.081c0,0,0.717-4.805-2.164-5.953c2.521-5.166-2.525-7.396-2.525-7.396
+			s-3.066-7.757-6.494-7.757c-0.181-2.165-3.429-5.772-7.758-5.412c-5.051-3.607-9.99,0-9.99,0s-5.162-2.886-9.492,0
+			c-4.33-1.804-9.201,5.773-9.201,5.773s-5.417,2.591-5.412,7.577c-3.253,0.967-4.871,5.412-3.609,6.675
+			c-4.33,3.428-1.985,7.757-1.985,9.562c-4.148,6.133-0.476,7.017,0,8.659c-3.065,5.592,2.211,10.378,3.247,11.184
+			c2.706,9.562,10.756,7.938,11.602,9.021c7.701,7.397,14.849,1.262,14.849,1.262s9.089,6.136,13.599,0
+			c1.624,1.444,14.066-4.984,12.267-9.921c4.687-1.197,3.783-9.135,3.066-9.921C80.845,41.331,77.782,30.081,77.782,30.081z
+			 M72.622,51.562c1.657,4.547-9.804,10.469-11.3,9.139c-4.153,5.65-12.525,0-12.525,0s-6.584,5.65-13.678-1.163
+			c-0.779-0.998-8.194,0.499-10.687-8.308c-0.955-0.742-5.815-5.152-2.992-10.302c-0.438-1.514-3.82-2.328,0-7.977
+			c0-1.663-2.159-5.65,1.829-8.808c-1.163-1.164,0.328-5.257,3.325-6.148c-0.006-4.593,4.985-6.979,4.985-6.979
+			s4.486-6.979,8.474-5.317c3.988-2.659,8.744,0,8.744,0s4.55-3.323,9.202,0c3.987-0.332,6.979,2.991,7.146,4.985
+			c3.158,0,5.982,7.146,5.982,7.146s4.647,2.054,2.326,6.812c2.654,1.058,1.993,5.484,1.993,5.484s2.82,10.362,0,12.296
+			C76.107,43.148,76.938,50.458,72.622,51.562z"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="14" height="23" xlink:href="51A2538034F616C9.png"  transform="matrix(1 0 0 1 34.5 9.5)">
+	</image>
+	<g>
+		<polyline fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" points="45.062,27.795 45.062,21.333 
+			39.947,16.219 39.947,11.667 		"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="14" height="23" xlink:href="51A2538034F616CF.png"  transform="matrix(1 0 0 1 46.5 9.5)">
+	</image>
+	<g>
+		<polyline fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" points="52.167,27.795 52.167,21.667 
+			56.705,17.129 56.705,11.667 		"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="22" height="16" xlink:href="51A2538034F616CA.png"  transform="matrix(1 0 0 1 23.5 20.5)">
+	</image>
+	<g>
+		<polyline fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" points="42.505,30.667 38.333,30.667 
+			35.5,26.795 31.5,26.795 28.769,24.064 		"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="20" height="14" xlink:href="51A2538034F616CB.png"  transform="matrix(1 0 0 1 50.5 22.5)">
+	</image>
+	<g>
+		<polyline fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" points="55.076,31 58.333,31 60.167,28.365 
+			63.833,28.365 65.833,25.833 67.833,25.833 		"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="22" height="17" xlink:href="51A2538034F616C6.png"  transform="matrix(1 0 0 1 23.5 33.5)">
+	</image>
+	<g>
+		<polyline fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" points="42.505,37.167 38.333,37.167 35.637,41 
+			32,41 29.833,44.667 27.667,44.667 		"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="22" height="16" xlink:href="51A2538034F616C7.png"  transform="matrix(1 0 0 1 50.5 33.5)">
+	</image>
+	<g>
+		<polyline fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" points="55.076,37.167 58.167,37.167 
+			61.455,40.287 65.667,40.287 67.833,43.833 70,43.833 		"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="14" height="22" xlink:href="51A2538034F616D8.png"  transform="matrix(1 0 0 1 34.5 37.5)">
+	</image>
+	<g>
+		<polyline fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" points="45.062,40.287 45.062,44.667 
+			42.283,47.445 42.283,50.333 40.391,52.225 40.391,55.5 		"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="18" height="21" xlink:href="51A2538034F616DB.png"  transform="matrix(1 0 0 1 46.5 37.5)">
+	</image>
+	<g>
+		<polyline fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" points="52.167,40.287 52.167,46.667 
+			55.686,50.186 59.667,50.186 61.324,51.842 61.324,54.167 		"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="11" height="11" xlink:href="CC761187A7914B37.png"  transform="matrix(1 0 0 1 50.5 5.5)">
+	</image>
+	<g>
+		<circle fill="none" stroke="#FFFFFF" stroke-miterlimit="10" cx="56.705" cy="10.166" r="1.501"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="11" height="11" xlink:href="CC761187A7914B35.png"  transform="matrix(1 0 0 1 62.5 21.5)">
+	</image>
+	<g>
+		<circle fill="none" stroke="#FFFFFF" stroke-miterlimit="10" cx="69.334" cy="25.833" r="1.501"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="11" height="11" xlink:href="CC761187A7914B33.png"  transform="matrix(1 0 0 1 65.5 39.5)">
+	</image>
+	<g>
+		<circle fill="none" stroke="#FFFFFF" stroke-miterlimit="10" cx="71.501" cy="43.833" r="1.501"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="11" height="10" xlink:href="CC761187A7914B4D.png"  transform="matrix(1 0 0 1 54.5 51.5)">
+	</image>
+	<g>
+		<circle fill="none" stroke="#FFFFFF" stroke-miterlimit="10" cx="61.324" cy="55.5" r="1.501"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="11" height="11" xlink:href="CC761187A7914B4F.png"  transform="matrix(1 0 0 1 33.5 52.5)">
+	</image>
+	<g>
+		<circle fill="none" stroke="#FFFFFF" stroke-miterlimit="10" cx="40.391" cy="57" r="1.501"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="11" height="11" xlink:href="CC761187A7914B52.png"  transform="matrix(1 0 0 1 19.5 40.5)">
+	</image>
+	<g>
+		<circle fill="none" stroke="#FFFFFF" stroke-miterlimit="10" cx="26.166" cy="44.666" r="1.501"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="11" height="11" xlink:href="CC761187A7914B53.png"  transform="matrix(1 0 0 1 21.5 18.5)">
+	</image>
+	<g>
+		<circle fill="none" stroke="#FFFFFF" stroke-miterlimit="10" cx="27.592" cy="23.143" r="1.501"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="13" height="13" xlink:href="CC761187A7914B55.png"  transform="matrix(1 0 0 1 41.5 28.5)">
+	</image>
+	<g>
+		<path fill="#FFFFFF" d="M51.972,36.229c0,0.688-0.559,1.246-1.247,1.246h-3.79c-0.689,0-1.247-0.558-1.247-1.246v-3.791
+			c0-0.688,0.558-1.247,1.247-1.247h3.79c0.688,0,1.247,0.558,1.247,1.247V36.229z"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="11" height="21" xlink:href="CC761187A7914B57.png"  transform="matrix(1 0 0 1 39.5 10.5)">
+	</image>
+	<g>
+		<polyline fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="47.813,27.334 47.813,19 44.812,15.999 44.812,12.833 		
+			"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="10" height="24" xlink:href="CC761187A7914B50.png"  transform="matrix(1 0 0 1 44.5 7.5)">
+	</image>
+	<g>
+		<polyline fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="49.5,27.334 49.5,17 51.972,15.75 51.972,13.667 
+			49.5,11.667 49.5,10.166 		"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="20" height="10" xlink:href="CC761187A7914B76.png"  transform="matrix(1 0 0 1 50.5 27.5)">
+	</image>
+	<g>
+		<polyline fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="55.204,32.833 61.324,32.833 64,31.191 67.833,30.667 		
+			"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="23" height="10" xlink:href="CC761187A7914B75.png"  transform="matrix(1 0 0 1 50.5 32.5)">
+	</image>
+	<g>
+		<polyline fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="55.204,35 61.519,35 63.667,37.167 67.833,37.167 
+			69.334,36.084 70.835,36.084 		"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="20" height="10" xlink:href="CC761187A7914B72.png"  transform="matrix(1 0 0 1 24.5 27.5)">
+	</image>
+	<g>
+		<polyline fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="41.892,32.833 36.667,32.833 32.333,30.667 28.769,30.667 
+					"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="24" height="10" xlink:href="CC761187A7914B7D.png"  transform="matrix(1 0 0 1 20.5 32.5)">
+	</image>
+	<g>
+		<polyline fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="41.892,35 35.637,35 33,37.167 29.093,37.167 27.592,35 
+			25.333,35 		"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="9" height="21" xlink:href="CC761187A7914B7E.png"  transform="matrix(1 0 0 1 41.5 38.5)">
+	</image>
+	<g>
+		<polyline fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="47.813,40.917 47.813,44.667 46.313,47.894 46.313,51.833 
+			47.813,54 47.813,55.5 		"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="12" height="21" xlink:href="CC761187A7914B7C.png"  transform="matrix(1 0 0 1 44.5 38.5)">
+	</image>
+	<g>
+		<polyline fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="49.5,40.917 49.5,46.167 50.736,49.667 50.736,51.667 
+			53.333,53.333 53.333,55.5 		"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="10" height="9" xlink:href="CC761187A7914B73.png"  transform="matrix(1 0 0 1 43.5 6.5)">
+	</image>
+	<g>
+		<circle fill="#FFFFFF" cx="49.5" cy="10.166" r="1.25"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="9" height="9" xlink:href="CC761187A7914B74.png"  transform="matrix(1 0 0 1 39.5 9.5)">
+	</image>
+	<g>
+		<circle fill="#FFFFFF" cx="44.812" cy="12.833" r="1.25"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="9" height="10" xlink:href="CC761187A7914B77.png"  transform="matrix(1 0 0 1 62.5 26.5)">
+	</image>
+	<g>
+		<circle fill="#FFFFFF" cx="67.833" cy="30.667" r="1.25"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="9" height="9" xlink:href="CC761187A7914B4B.png"  transform="matrix(1 0 0 1 65.5 32.5)">
+	</image>
+	<g>
+		<circle fill="#FFFFFF" cx="70.835" cy="36.084" r="1.25"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="10" height="10" xlink:href="CC761187A7914B99.png"  transform="matrix(1 0 0 1 47.5 51.5)">
+	</image>
+	<g>
+		<circle fill="#FFFFFF" cx="53.333" cy="55.5" r="1.25"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="9" height="10" xlink:href="CC761187A7914B97.png"  transform="matrix(1 0 0 1 42.5 51.5)">
+	</image>
+	<g>
+		<circle fill="#FFFFFF" cx="47.813" cy="55.5" r="1.25"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="10" height="9" xlink:href="CC761187A7914BA9.png"  transform="matrix(1 0 0 1 19.5 31.5)">
+	</image>
+	<g>
+		<circle fill="#FFFFFF" cx="25.333" cy="35" r="1.25"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="9" height="10" xlink:href="CC761187A7914BAB.png"  transform="matrix(1 0 0 1 23.5 26.5)">
+	</image>
+	<g>
+		<circle fill="#FFFFFF" cx="28.769" cy="30.667" r="1.25"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="21" height="21" xlink:href="CC761187A7914BA8.png"  transform="matrix(1 0 0 1 37.5 24.5)">
+	</image>
+	<g>
+		<path fill="none" stroke="#FFFFFF" stroke-miterlimit="10" d="M55.076,37.809c0,1.369-1.11,2.479-2.479,2.479h-7.536
+			c-1.369,0-2.478-1.109-2.478-2.479v-7.536c0-1.368,1.109-2.478,2.478-2.478h7.536c1.368,0,2.479,1.109,2.479,2.478V37.809z"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="11" height="11" xlink:href="CC761187A7914BAF.png"  transform="matrix(1 0 0 1 33.5 5.5)">
+	</image>
+	<g>
+		<circle fill="none" stroke="#FFFFFF" stroke-miterlimit="10" cx="39.833" cy="10.166" r="1.5"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="15" height="12" xlink:href="CC761187A7914BAA.png"  transform="matrix(1 0 0 1 27.5 13.5)">
+	</image>
+	<g>
+		<polyline fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="32.5,15.75 33.613,18.75 37,18.75 39.5,20.5 		"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="14" height="11" xlink:href="CC761187A7914BA6.png"  transform="matrix(1 0 0 1 30.5 18.5)">
+	</image>
+	<g>
+		<polyline fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="35.331,21.643 37.083,23.144 40.391,23.144 41.333,25.166 
+					"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="15" height="16" xlink:href="CC761187A7914BA7.png"  transform="matrix(1 0 0 1 50.5 13.5)">
+	</image>
+	<g>
+		<polyline fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="55.583,25.166 55.583,22.333 58.206,19.416 61.519,19.416 
+			63.02,16.666 		"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="15" height="11" xlink:href="CC761187A7914BB7.png"  transform="matrix(1 0 0 1 54.5 18.5)">
+	</image>
+	<g>
+		<polyline fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="58.833,24.064 62.538,24.064 64.25,21.643 66.916,21.643 
+					"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="17" height="14" xlink:href="CC761187A7914B84.png"  transform="matrix(1 0 0 1 25.5 39.5)">
+	</image>
+	<g>
+		<polyline fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="30.019,48.666 33.613,48.666 34.583,46.167 37,45.833 
+			38.89,42.333 39.947,42.333 		"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="17" height="12" xlink:href="CC761187A7914B87.png"  transform="matrix(1 0 0 1 51.5 39.5)">
+	</image>
+	<g>
+		<polyline fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="56.746,41.916 59.823,44.666 62.538,44.666 65.333,46.167 
+					"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="11" height="13" xlink:href="CC761187A7914B85.png"  transform="matrix(1 0 0 1 30.5 45.5)">
+	</image>
+	<g>
+		<polyline fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="35.637,54 35.637,50.75 38.332,48.666 39.5,48.666 		"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="12" height="9" xlink:href="CC761187A7914B83.png"  transform="matrix(1 0 0 1 57.5 45.5)">
+	</image>
+	<g>
+		<polyline fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="62.538,47.894 64.75,49.666 67.25,49.666 		"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="11" height="10" xlink:href="CC761187A7914B9C.png"  transform="matrix(1 0 0 1 59.5 42.5)">
+	</image>
+	<g>
+		<circle fill="none" stroke="#FFFFFF" stroke-miterlimit="10" cx="65.917" cy="46.584" r="1.084"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="10" height="10" xlink:href="CC761187A7914B9F.png"  transform="matrix(1 0 0 1 50.5 37.5)">
+	</image>
+	<g>
+		<circle fill="none" stroke="#FFFFFF" stroke-miterlimit="10" cx="56.161" cy="41.584" r="1.084"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="10" height="10" xlink:href="CC761187A7914B9D.png"  transform="matrix(1 0 0 1 62.5 45.5)">
+	</image>
+	<g>
+		<circle fill="none" stroke="#FFFFFF" stroke-miterlimit="10" cx="68.086" cy="49.667" r="1.084"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="10" height="10" xlink:href="CC761187A7914B82.png"  transform="matrix(1 0 0 1 61.5 17.5)">
+	</image>
+	<g>
+		<circle fill="none" stroke="#FFFFFF" stroke-miterlimit="10" cx="67.833" cy="21.644" r="1.084"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="11" height="10" xlink:href="CC761187A7914B86.png"  transform="matrix(1 0 0 1 25.5 10.5)">
+	</image>
+	<g>
+		<circle fill="none" stroke="#FFFFFF" stroke-miterlimit="10" cx="32.072" cy="14.833" r="1.084"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="10" height="10" xlink:href="CC761187A7914B81.png"  transform="matrix(1 0 0 1 57.5 11.5)">
+	</image>
+	<g>
+		<circle fill="none" stroke="#FFFFFF" stroke-miterlimit="10" cx="63.623" cy="15.917" r="1.084"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="10" height="10" xlink:href="CC761187A7914BE3.png"  transform="matrix(1 0 0 1 49.5 22.5)">
+	</image>
+	<g>
+		<circle fill="none" stroke="#FFFFFF" stroke-miterlimit="10" cx="55.583" cy="26.25" r="1.084"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="10" height="10" xlink:href="CC761187A7914BE1.png"  transform="matrix(1 0 0 1 35.5 21.5)">
+	</image>
+	<g>
+		<circle fill="none" stroke="#FFFFFF" stroke-miterlimit="10" cx="41.892" cy="25.834" r="1.084"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="10" height="10" xlink:href="CC761187A7914BE7.png"  transform="matrix(1 0 0 1 34.5 38.5)">
+	</image>
+	<g>
+		<circle fill="none" stroke="#FFFFFF" stroke-miterlimit="10" cx="40.808" cy="42.333" r="1.084"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="10" height="10" xlink:href="CC761187A7914BE2.png"  transform="matrix(1 0 0 1 22.5 44.5)">
+	</image>
+	<g>
+		<circle fill="none" stroke="#FFFFFF" stroke-miterlimit="10" cx="28.769" cy="48.78" r="1.084"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="10" height="10" xlink:href="CC761187A7914BED.png"  transform="matrix(1 0 0 1 29.5 51.5)">
+	</image>
+	<g>
+		<circle fill="none" stroke="#FFFFFF" stroke-miterlimit="10" cx="35.637" cy="55.084" r="1.084"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="9" height="9" xlink:href="CC761187A7914BEE.png"  transform="matrix(1 0 0 1 53.5 20.5)">
+	</image>
+	<g>
+		<circle fill="#FFFFFF" cx="58.833" cy="24.064" r="1.25"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="9" height="10" xlink:href="CC761187A7914BEF.png"  transform="matrix(1 0 0 1 29.5 17.5)">
+	</image>
+	<g>
+		<circle fill="#FFFFFF" cx="35.086" cy="21.643" r="1.25"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="10" height="10" xlink:href="CC761187A7914BE4.png"  transform="matrix(1 0 0 1 33.5 44.5)">
+	</image>
+	<g>
+		<circle fill="#FFFFFF" cx="39.5" cy="48.583" r="1.25"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="10" height="10" xlink:href="CC761187A7914BE5.png"  transform="matrix(1 0 0 1 56.5 43.5)">
+	</image>
+	<g>
+		<circle fill="#FFFFFF" cx="62.29" cy="47.667" r="1.25"/>
+	</g>
+</g>
+<g>
+	
+		<image overflow="visible" opacity="0.44" width="10" height="10" xlink:href="CC761187A7914BE6.png"  transform="matrix(1 0 0 1 34.5 16.5)">
+	</image>
+	<g>
+		<circle fill="none" stroke="#FFFFFF" stroke-miterlimit="10" cx="40.391" cy="20.917" r="1.084"/>
+	</g>
+</g>
 </svg>
