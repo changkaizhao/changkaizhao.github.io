@@ -5,8 +5,8 @@
     <description>Create a mind never fade.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 14 Jul 2018 19:12:47 +0800</pubDate>
-    <lastBuildDate>Sat, 14 Jul 2018 19:12:47 +0800</lastBuildDate>
+    <pubDate>Sun, 15 Jul 2018 12:33:15 +0800</pubDate>
+    <lastBuildDate>Sun, 15 Jul 2018 12:33:15 +0800</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
@@ -163,38 +163,6 @@ print(fa[0])
       </item>
     
       <item>
-        <title>MathJax Test</title>
-        <description>&lt;p&gt;mathjax in markdown :)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;这是一个不&lt;code class=&quot;highlighter-rouge&quot;&gt;align&lt;/code&gt;的公式&lt;/strong&gt;：&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\forall \alpha \in A, \quad a \cdot b = 0&lt;/script&gt;
-
-&lt;p&gt;&lt;strong&gt;这是一个&lt;code class=&quot;highlighter-rouge&quot;&gt;align&lt;/code&gt;的公式&lt;/strong&gt;：&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\text{for OTP : $\qquad$ if }\quad E(k,\:m)=c\\
-\begin{align}
-k\oplus m &amp;= c \\
-k &amp;= m\oplus c
-\end{align}
-\\
-\#\{\;k \in \mathscr K : \quad E(k,\:m)=c \;\}=1 \quad \forall m,\:c %]]&gt;&lt;/script&gt;
-
-&lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt;公式块要想有较好的显示效果，必须在公式块标记符&lt;code class=&quot;highlighter-rouge&quot;&gt;$$&lt;/code&gt;&lt;strong&gt;前后&lt;/strong&gt;留有空行，否则公式将不能正常居中。行内公式无此问题。&lt;/p&gt;
-</description>
-        <pubDate>Sun, 30 Jul 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2017/07/30/mathjax-test.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/07/30/mathjax-test.html</guid>
-        
-        <category>mathjax</category>
-        
-        
-        <category>test</category>
-        
-      </item>
-    
-      <item>
         <title>Synaptic Connectivity Motifs Contribute to Efficient Memory Retrieval in Hippocampus ( *突触连接样式有助于在海马体内记忆的有效检索* )</title>
         <description>&lt;blockquote&gt;
   &lt;p&gt;原文：&lt;a href=&quot;http://neurosciencenews.com/hippocampus-synaptic-connection-memory-5027/&quot;&gt;Synaptic Connectivity Motifs Contribute to Efficient Memory Retrieval in Hippocampus&lt;/a&gt;&lt;/p&gt;
@@ -208,7 +176,7 @@ k &amp;= m\oplus c
 
 &lt;p&gt;&lt;strong&gt;海马体&lt;/strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;CA3&lt;/code&gt;区在学习和记忆过程中起着关键作用。&lt;code class=&quot;highlighter-rouge&quot;&gt;CA3&lt;/code&gt;区的神经网络的一个最重要的功能是它可以检索之前存储在记忆中的不完整或降级版本，也就是被人熟知的&lt;strong&gt;模式生成&lt;/strong&gt;(&lt;em&gt;pattern completion&lt;/em&gt;)。人们普遍认为&lt;code class=&quot;highlighter-rouge&quot;&gt;CA3&lt;/code&gt;区神经网络内的锥形神经元细胞之间的突触 (重复的&lt;code class=&quot;highlighter-rouge&quot;&gt;CA3-CA3&lt;/code&gt;突触)，在模式生成过程中起到了关键作用，但其内部运作机理目前仍然不清晰。最近的一篇研究文章题为“&lt;strong&gt;Synaptic Connectivity Motifs Contribute to Efficient Memory Retrieval in Hippocampus&lt;/strong&gt;”于2016年9月9日发表在&lt;strong&gt;Science&lt;/strong&gt;，作者&lt;em&gt;Jose Guzman, Alois Schlögl, Michael Frotscher&lt;/em&gt;  和 &lt;em&gt;Peter Jonas&lt;/em&gt;通过结合&lt;strong&gt;功能连接分析&lt;/strong&gt;和&lt;strong&gt;网络建模&lt;/strong&gt;来研究上述运作机理。他们的研究结果表明，&lt;code class=&quot;highlighter-rouge&quot;&gt;CA3&lt;/code&gt;区神经网络锥形神经元之间的突触连接的方式对&lt;strong&gt;模式生成&lt;/strong&gt;效率的影响极其显著。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/changkaizhao/changkaizhao.github.io/master/images/2016-9-13/1.jpg&quot; alt=&quot;突触连接&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.digitbrain.science/images/synapses-hippocampus-neurosciencenews.jpg&quot; alt=&quot;突触连接&quot; /&gt;
 &lt;code class=&quot;highlighter-rouge&quot;&gt;CA3&lt;/code&gt;区锥形&lt;strong&gt;神经元对&lt;/strong&gt;突触连接重建图。图中为由单个突触连接的&lt;strong&gt;神经元对&lt;/strong&gt;的显微图像。NeuroscienceNews.com image is adapted from the IST Austria press release.&lt;/p&gt;
 
 &lt;p&gt;早前对于&lt;strong&gt;海马体&lt;/strong&gt;构成的理论认为&lt;code class=&quot;highlighter-rouge&quot;&gt;CA3&lt;/code&gt;区的神经网络内部的神经元也是高度相互连接的。奥地利科技学院的神经科学家通过同时监控8个相互连接的神经元之间的电信号传导的方法来检验早前的假设。经过实验后，结果让人很震惊,首先他们发现此区域中的神经元连接是稀疏的，平均连接概率约为&lt;code class=&quot;highlighter-rouge&quot;&gt;1%&lt;/code&gt;。这对于之前死板地认为神经网络的神经元是高度连接的结论提出了极大的挑战。令人更加惊讶的是，网络内部神经元的连接也不是随机的，相对于随机神经网络其内部神经元连接更多地呈现某种&lt;strong&gt;样式&lt;/strong&gt;(&lt;em&gt;motifs&lt;/em&gt;)。因此，&lt;strong&gt;海马体&lt;/strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;CA3&lt;/code&gt;区的神经元连接结构某种程度上让人联想到社交网络中的&lt;em&gt;“小世界”&lt;/em&gt;(small world)结构。最后，作者发现这个区域中的两个神经元间的突触连接仅有&lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;到&lt;code class=&quot;highlighter-rouge&quot;&gt;2&lt;/code&gt;个。要知道在&lt;strong&gt;新大脑皮层&lt;/strong&gt;(&lt;em&gt;neocortex&lt;/em&gt;)中的神经元之间刺激性突触连接个数远大于&lt;code class=&quot;highlighter-rouge&quot;&gt;2&lt;/code&gt;个。&lt;/p&gt;

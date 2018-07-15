@@ -1,7 +1,7 @@
 # Site settings 配置站点
 title: 'Robys AI Lab'
 description: 'Create a mind never fade.'
-keyword: 'AI, Brain, Neural Science'
+keyword: 'AI, Neural Science'
 url: 'http://www.digitbrain.science/' # your host
 
 # if you don't need baseurl, you should leave this value blank.
