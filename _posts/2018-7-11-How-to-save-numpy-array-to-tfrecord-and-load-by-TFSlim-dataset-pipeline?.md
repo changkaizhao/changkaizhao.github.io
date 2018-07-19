@@ -45,8 +45,7 @@ f_array = np.reshape(f_array, [2*2*2,])
 i_array = np.reshape(i_array, [2*2*2,])
 
 
-output_filename = "/Development/tensorflow/tensorflowTest/dataloadTest/" \
-                  "testdata.tfrecord"
+output_filename = "~/testdata.tfrecord"
 
 writer = tf.python_io.TFRecordWriter(output_filename)
 
@@ -79,13 +78,13 @@ writer.write(example.SerializeToString())
 import tensorflow as tf
 from tensorflow.contrib import slim
 
-data_file = "/Development/tensorflow/tensorflowTest/dataloadTest/" \
-                  "testdata.tfrecord"
+data_file = "~/testdata.tfrecord"
 reader = tf.TFRecordReader
 
 keys_to_features = {
-    'i_array' : tf.FixedLenFeature([2*2*2], dtype=tf.int64),
-    'f_array' : tf.FixedLenFeature([2*2*2], dtype=tf.float32)
+	#we should specify the shape of array to restore
+    'i_array' : tf.FixedLenFeature([2, 2, 2], dtype=tf.int64),
+    'f_array' : tf.FixedLenFeature([2, 2, 2], dtype=tf.float32)
 }
 
 items_to_handlers = {
@@ -109,9 +108,6 @@ provider = slim.dataset_data_provider.DatasetDataProvider(
 
 [i_array, f_array] = provider.get(['i_array', 'f_array'])
 
-# we should reshape again ,to restore original shape of array
-i_array = tf.reshape(i_array, [2, 2, 2])
-f_array = tf.reshape(f_array, [2, 2, 2])
 
 b_iarray, b_farray = tf.train.batch([i_array, f_array], batch_size=1,
                                     num_threads=1, capacity=5)
