@@ -8,7 +8,7 @@ cover: 'http://www.digitbrain.science/images/ml_tutorial/cover01.png'
 tags: 贝叶斯 共轭先验 二项分布 Beta分布
 ---
 
-投硬币
+## 投硬币
 ---
 
 投硬币游戏中，会产生两种结果：**正面**和**背面**，可以用随机变量$$x$$表示。因此$$x\in\{0,1\}$$，表示抛硬币结果不是正面就是反面。其中$$0$$表示**正面**，$$1$$表示**背面**。
@@ -32,15 +32,27 @@ $$\mathbb{E}[x]=\mu$$
 $$var[x]=\mu(1-\mu)$$  
 
 
+## 参数估计
+---
+
+
+ $$p(\mathcal{D}\mid\mu)=\prod_{n=1}^N\mu^{x_n}(1-\mu)^{1-x_n}$$ 
+
+ $$\mathrm{ln}p(\mathcal{D}\mid\mu)=\sum_{n=1}^N\mathrm{ln}p(x_n\mid\mu)=\sum_{n=1}^N\{x_n\mathrm{ln}\mu+(1-x_n)\mathrm{ln}(1-\mu)\}$$
+
+
+ $$\mu_{\mathrm{ML}}=\frac{1}{N}\sum_{n=1}^Nx_n$$
+
+ $$\mu_{\mathrm{ML}}=\frac{m}{N}$$
+
+
+## 二项分布
+---
 
 
 
-
-
-
-
-
-
+## Beta分布
+---
 <pre><code class="language-python">
 #Save numpy data to tfrecord
 
@@ -48,8 +60,4 @@ import numpy as np
 import tensorflow as tf
 </code></pre>
 
-
-## Load data from tfrecord via TFSlim data pipeline
-
-**loaddatafromtfrecord.py**
 
