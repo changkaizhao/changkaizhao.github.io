@@ -5,7 +5,7 @@ subtitle: '机器学习之概率基础一'
 date: 2020-11-09
 categories: 技术
 cover: 'http://www.digitbrain.science/images/ml_tutorial/cover01.png'
-tags: machinelearning bayes binomial beta distribution conjugacy
+tags: 贝叶斯 共轭先验 二项分布 Beta分布
 ---
 
 投硬币
@@ -20,7 +20,7 @@ $$p(x=1\mid\mu)=\mu$$
 $$p(x=0\mid\mu)=1-\mu$$  
 
 
-因此，$$x$$的概率分布可表示为**伯努利分布**:  
+因此，$$x$$的概率分布可表示为**伯努利分布(Bernoulli distribution)**:  
 
 $$Bern(x\mid\mu)=\mu^x(1-\mu)^{1-x}$$
 
