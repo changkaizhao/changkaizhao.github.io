@@ -74,3 +74,6 @@ $$var[x]=\mu(1-\mu)$$
 
 ## Beta分布
 
+<svg width="400" height=300>
+    <circle cx="150" cy="100" r="10" fill="blue"/>
+</svg>
