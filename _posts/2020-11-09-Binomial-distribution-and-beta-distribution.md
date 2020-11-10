@@ -66,19 +66,11 @@ $$var[x]=\mu(1-\mu)$$
  式中$$m$$表示数据样本中出现正面的次数，和你的直觉是一样的结果。
 
 
-## 二项分布
-x | y |1
---|--|--
-y | 1|2
 
+
+（continue...）
+
+## 二项分布
 
 ## Beta分布
-
-<pre><code class="language-python">
-#Save numpy data to tfrecord
-
-import numpy as np
-import tensorflow as tf
-</code></pre>
-
 
