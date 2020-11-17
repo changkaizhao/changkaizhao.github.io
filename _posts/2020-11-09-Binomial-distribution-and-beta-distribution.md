@@ -73,6 +73,7 @@ $$var[x]=\mu(1-\mu)$$
 ## 二项分布
 
 ## Beta分布
+<img src="https://www.digitbrain.science/images/ml_tutorial/test.svg">
 
 <svg width="400" height=300>
     <circle cx="150" cy="100" r="10" fill="blue"/>
