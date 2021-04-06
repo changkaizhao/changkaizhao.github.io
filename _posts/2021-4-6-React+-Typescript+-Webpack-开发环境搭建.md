@@ -477,7 +477,7 @@ npm install --save-dev clean-webpack-plugin
 
 之后就可以部署应用了。
 
-# 六**配置测试**
+# 六、 **配置测试**
 
 使用**jest**进行测试。
 
