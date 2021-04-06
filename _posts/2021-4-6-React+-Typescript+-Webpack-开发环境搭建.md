@@ -115,10 +115,10 @@ ReactDOM.render(
 npm install --save-dev @babel/core @babel/preset-env @babel/preset-react @babel/preset-typescript @babel/plugin-transform-runtime @babel/runtime
 ```
 
-• `@babel/core`: **Babel** 核心库.
-• `@babel/preset-env`: 环境插件， 可以让最新的 **JavaScript** 特性运行在老的浏览器上。`@babel/preset-react`: **REACT**转译插件， **Babel**可以将**React tsx jsx**代码转译为**JavaScript**.
-• `@babel/preset-typescript`: **TS**转译插件， **Babel** 可以将**TypeScript** 代码转译为 **JavaScript**.
-• `@babel/plugin-transform-runtime` 和 ` @babel/runtime`: 可以让**JS**代码使用 `async` 和`await` **JavaScript** 功能.
+• `@babel/core`: **Babel** 核心库.  
+• `@babel/preset-env`: 环境插件， 可以让最新的 **JavaScript** 特性运行在老的浏览器上。`@babel/preset-react`: **REACT**转译插件， **Babel**可以将**React tsx jsx**代码转译为**JavaScript**.  
+• `@babel/preset-typescript`: **TS**转译插件， **Babel** 可以将**TypeScript** 代码转译为 **JavaScript**.  
+• `@babel/plugin-transform-runtime` 和 `@babel/runtime`: 可以让**JS**代码使用 `async` 和`await` **JavaScript** 功能.
 
 配置**Babel**配置文件
 **Babel** 配置文件为 `.babelrc`. 配置文件告诉**Babel**使用哪些插件，新建一个如下：
@@ -149,9 +149,9 @@ npm install --save-dev @babel/core @babel/preset-env @babel/preset-react @babel/
 npm install --save-dev eslint eslint-plugin-react eslint-plugin-react-hooks @typescript-eslint/parser @typescript-eslint/eslint-plugin
 ```
 
-• `eslint`: **ESLint** 核心.
-• `eslint-plugin-react`: **React**的**lint**插件.
-• `eslint-plugin-react-hooks`: **react hook** 的**lint** 插件.
+• `eslint`: **ESLint** 核心.  
+• `eslint-plugin-react`: **React**的**lint**插件.  
+• `eslint-plugin-react-hooks`: **react hook** 的**lint** 插件.  
 • `@typescript-eslint/parser`: 可以检查**TypeScript** 代码
 • `@typescript-eslint/eslint-plugin`: 标准检查规则对 **TypeScript** 代码.
 
