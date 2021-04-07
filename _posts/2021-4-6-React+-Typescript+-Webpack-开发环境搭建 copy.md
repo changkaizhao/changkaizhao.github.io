@@ -185,7 +185,8 @@ npm install --save-dev eslint eslint-plugin-react eslint-plugin-react-hooks @typ
 
 # 五、添加**Webpack**
 
-**Webpack**对前端项目内的所有模块(这里的模块指的是各个资源文件，包括`.json`, `.ts`, `.js`, `.png`, `.svg`等等)`进行打包生成css`, `js`和`images`。
+**Webpack**对前端项目内的所有模块(这里的模块指的是各个资源文件，包括`.json`, `.ts`, `.js`, `.png`, `.svg`等等)进行打包生成`css`,转译 ES6 语法的 `js`, `Json`和`images`。
+如果想适配更多 **ES5** 语法就要借助**Babel**进行转译。
 
 安装**webpack**
 
