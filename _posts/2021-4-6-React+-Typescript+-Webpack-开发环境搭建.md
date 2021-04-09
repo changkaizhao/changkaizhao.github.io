@@ -220,7 +220,19 @@ npm install --save-dev html-webpack-plugin
 npm install --save-dev ts-node
 ```
 
-通常配置两个配置文件一个用于开发一个用于生产部署。
+通常只需要配置一个`webpack.config.ts`就够了，然后在里面通过`process.env.NODE_ENV`标志去判断编译环境，然后通过设置`package.json`的启动脚本选择运行环境，
+
+```
+...
+"scripts": {
+    "build": "webpack --node-env production",
+    "start": "webpack serve --node-env development"
+},
+...
+
+```
+
+这里配置两个配置文件一个用于开发一个用于生产部署仅做演示。
 
 先在项目根目录建一个开发配置文件 `webpack.dev.config.ts` ，内容如下：
 
