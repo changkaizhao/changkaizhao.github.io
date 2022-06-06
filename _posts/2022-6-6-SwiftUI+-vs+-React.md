@@ -21,7 +21,7 @@ tags: react swfitUI
 
 ## **2. View vs Component**
 - In swiftUI, we use **View** as the block to build the entire visual world
-- In React world, the **Component** is the atomic block.
+- In React, the **Component** is the logic block to build the world.
 
 ### **2.1 lifecycle**
 #### **View** lifecycle is managed via **viewmodifiers** and **init** func as below.
