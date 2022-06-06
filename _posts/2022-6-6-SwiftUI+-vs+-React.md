@@ -4,8 +4,6 @@ title: SwiftUI vs React
 tags: react swfitUI
 ---
 
-# **SwiftUI** vs **React**
-
 ## **1. Software architecture**
 **MVVM** (model-view-viewmodel)
 > Both **SwiftUI** and **React** comform to **MVVM** pattern.
