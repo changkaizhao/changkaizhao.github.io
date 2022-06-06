@@ -27,7 +27,7 @@ tags: react swfitUI
 #### **View** lifecycle is managed via **viewmodifiers** and **init** func as below.
 - `init` define how to init a **View**
 - `onAppear` do something after **View** appear on screen
-- `onReceive` do something while **View** recive some **State** or **event** changes
+- `onReceive` do something while **View** receiving some **State** or **event** changes
 - `onDisappear` do something here before **View** disappear from screen
 
 #### **Component** lifecycle is managed via **hook** as below.
