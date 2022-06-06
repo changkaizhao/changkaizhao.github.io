@@ -15,6 +15,8 @@ tags: react swfitUI
 - **model** is the source of truth
 - **view** displays all content
 - **viewModel** coordinates model and view, and also communicate with other viewModels
+
+
 ---
 
 ## **2. View vs Component**
@@ -49,6 +51,8 @@ useEffect({
 ### **2.2 `@State` vs `useState`**
 - In **View**, we use `@State` to associate a value, while it changes will cause **View** updates 
 - In **Component**, `useState` hook will return `[value, setValue]`, the `getter` and `setter` are used for sync update in a **Component**
+
+
 ---
 ## **3. Value passing**
 It's an important topic for value passing between differect blocks. Value passing can be classified into 4 types.
@@ -72,6 +76,8 @@ It's an important topic for value passing between differect blocks. Value passin
 ### **3.4 any -> any**
 - In SwiftUI, global state management
 - In React, global state management
+
+
 ---
 ## **4. Global State management**
 Usually,  a global state manager plays a role of **viewModel**.
@@ -94,6 +100,7 @@ In React world, there are many 3rd party frameworks to manage global states. suc
 
 Recommend book about mircostate management in react: [	
 Micro State Management with React Hooks: Explore custom hooks libraries like Zustand, Jotai, and Valtio to manage global states](https://www.amazon.com/-/zh_TW/Daishi-Kato-ebook/dp/B09P5QRJ79/ref=sr_1_1?keywords=Micro+State+Management+with+React+Hooks%3A+Explore+custom+hooks+libraries+like+Zustand%2C+Jotai%2C+and+Valtio+to+manage+global+states&qid=1654502835&sr=8-1)
+
 
 ---
 ## **5. Performance**
