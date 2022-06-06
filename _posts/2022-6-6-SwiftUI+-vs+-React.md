@@ -4,8 +4,6 @@ title: SwiftUI vs React
 tags: react swfitUI
 ---
 
-> 作者：Roby
-
 # **SwiftUI** vs **React**
 
 ## **1. Software architecture**
