@@ -18,7 +18,7 @@ $color-f-dark: #868A94;
 
 // size
 $g-header-h: 26px;
-$g-banner-h: 460px;
+$g-banner-h: 260px;
 $g-footer-h: 40px;
 $g-container-w: 960px;
 $post-content-w: 720px;
@@ -70,7 +70,7 @@ $post-content-w: 720px;
 
 @mixin authorCard {
     text-align: center;
-    
+
     .avatar {
         width: 70px;
         height: 70px;
@@ -182,7 +182,7 @@ $post-content-w: 720px;
     .icon-medium:hover {
         color: #0BE370;
     }
-    
+
 }
 
 @mixin postHeaderPattern($shape) {
